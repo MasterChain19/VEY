@@ -1,0 +1,107 @@
+
+
+/* General Reset */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    color: #15ff00;
+}
+
+/* Header */
+.main-header {
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    color: #ff0000;
+    border-bottom: 5px solid #bc1a1a;
+}
+
+.hero .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero .cta-button:hover {
+    transform: scale(1.1);
+}
+
+/* Tokenomics */
+.tokenomics {
+    padding: 30px;
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    text-align: center;
+}
+
+.tokenomics h2 {
+    color: #e84393;
+}
+
+/* Roadmap */
+.roadmap {
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    padding: 30px;
+}
+
+.roadmap ol {
+    list-style: decimal;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Meme Gallery */
+.meme-gallery {
+    padding: 30px;
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    text-align: center;
+}
+
+.meme-gallery .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meme {
+    border: 3px solid #d63031;
+    padding: 10px;
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+}
+
+/* Footer */
+footer {
+    background: url("https://i.pinimg.com/originals/29/c6/8c/29c68c38857c0c994ec565ad2dd15776.gif");
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
